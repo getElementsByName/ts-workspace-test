@@ -1,0 +1,25 @@
+{
+  "name": "ts-workspace-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "main": "./srcindex.ts",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.0.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.1.4"
+  }
+}
