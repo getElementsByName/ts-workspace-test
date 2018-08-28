@@ -1,15 +1,16 @@
 {
     "compilerOptions": {
+        "declaration": true,
+        "rootDir": "./src",
         "moduleResolution": "node",
         "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "commonjs",
-        "target": "es5"
+        "target": "es5",
+        "composite": true
     },
-    "references": [
-        { "path": "./packages/a-pkg" }
-    ],
+
     "include": [
         "./**/*"
     ]
